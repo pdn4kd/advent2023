@@ -5,7 +5,7 @@ sum = 0
 
 # read in file as strings line by line
 # actual file is named input, but a small test one is named test01-1.txt, which should generate lines of 12, 38, 15, and 77, resulting in a sum of 142.
-f = open("input", "r", encoding="utf-8")
+f = open("input01", "r", encoding="utf-8")
 inputline = f.readline()
 
 while inputline != "":

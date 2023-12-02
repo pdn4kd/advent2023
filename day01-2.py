@@ -16,7 +16,7 @@ match5 = "three","seven","eight"
 
 # read in file as strings line by line
 #f = open("test01-2.txt", "r", encoding="utf-8")
-f = open("input", "r", encoding="utf-8")
+f = open("input01", "r", encoding="utf-8")
 inputline = f.readline()
 
 while inputline !="":
